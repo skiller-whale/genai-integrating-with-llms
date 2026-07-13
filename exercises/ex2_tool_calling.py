@@ -23,7 +23,7 @@ model = ChatBedrockConverse(
 #   The tool will return information about a project, given its code.
 #   The user will ask the LLM to draft an email about a project.
 #
-#  The tool is already defined and implemented in the `get_project_info` function and `tool_config`.
+#  The tool is already defined and implemented in the `get_project_info` function.
 #
 #  * Define an agent using `create_agent` with the model and tool.
 #  * Call the agent using the following prompt:
